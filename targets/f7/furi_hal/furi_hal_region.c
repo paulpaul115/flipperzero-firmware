@@ -82,7 +82,7 @@ void furi_hal_region_init() {
     } else if(region == FuriHalVersionRegionUsCaAu) {
         furi_hal_region = &furi_hal_region_us_ca_au;
     } else if(region == FuriHalVersionRegionJp) {
-        furi_hal_region = &furi_hal_region_jp;
+        furi_hal_region = &furi_hal_region_zero;
     }
 }
 
