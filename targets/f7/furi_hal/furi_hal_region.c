@@ -55,20 +55,15 @@ const FuriHalRegion furi_hal_region_us_ca_au = {
 
 const FuriHalRegion furi_hal_region_jp = {
     .country_code = "JP",
-    .bands_count = 2,
+    .bands_count = 1,
     .bands = {
         {
-            .start = 312000000,
-            .end = 315250000,
+            .start = 0,
+            .end = 1000000000,
             .power_limit = 12,
             .duty_cycle = 50,
         },
-        {
-            .start = 920500000,
-            .end = 923500000,
-            .power_limit = 12,
-            .duty_cycle = 50,
-        }}};
+    }};
 
 static const FuriHalRegion* furi_hal_region = NULL;
 
